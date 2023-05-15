@@ -608,7 +608,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1400px;
+    max-width: 1140px;
   }
 }
 .row {
@@ -9235,4 +9235,9 @@ p,
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+.boton {
+  margin: auto;
+  max-width: 50%;
 }/*# sourceMappingURL=style.css.map */
