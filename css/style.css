@@ -9240,4 +9240,9 @@ p,
 .boton {
   margin: auto;
   max-width: 50%;
+}
+
+.back-to-top {
+  background-color: #25D366;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
