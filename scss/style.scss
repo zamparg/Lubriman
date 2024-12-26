@@ -1,6 +1,6 @@
 /******* Bootstrap Theming ********/
 
-$primary: #e4341d;
+$primary: #A92514;
 $secondary: #F2F2F4;
 $light: #FFFFFF;
 $dark: #1F1F2E;
@@ -30,14 +30,14 @@ h1,
 }
 
 h2,
+.h2,
 h3,
 .font-weight-bold {
     font-weight: 700 !important;
 }
 
 h4,
-h5
-.font-weight-semi-bold {
+h5 .font-weight-semi-bold {
     font-weight: 600 !important;
 }
 
@@ -117,7 +117,7 @@ p,
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         padding: 10px 15px;
     }
 }
@@ -181,7 +181,7 @@ p,
     z-index: 3;
     width: 0;
     height: 0;
-    border-left: 16px solid $dark;
+    border-left: 16px solid white;
     border-top: 11px solid transparent;
     border-bottom: 11px solid transparent;
 }
@@ -287,39 +287,48 @@ p,
     list-style-type: none;
 }
 
-.boton{
+.boton {
     margin: auto;
     max-width: 50%;
 }
 
-.back-to-top{
+.back-to-top {
     background-color: #25D366;
     border: none
 }
 
-h3{
+h3 {
     text-transform: uppercase;
     font-weight: 800 !important;
     font-size: calc(1.375rem + 1.5vw);
 }
 
-h4{
+h4 {
     text-transform: uppercase;
     font-weight: 700 !important;
     font-size: calc(1.3rem + 0.6vw);
 }
 
-.subtImg{
+.subtImg {
     font-size: calc(1rem + 0.6vw);
 }
 
-.h1simil{
+.h1simil {
     text-transform: uppercase;
     font-weight: 800 !important;
     font-size: calc(1.375rem + 1.5vw);
 }
-.loguito{
+
+.loguito {
     max-height: 40px;
     min-height: 20px;
     min-width: 20px;
+}
+
+.fs-medium {
+    font-size: calc(1rem + 0.6vw) !important;
+}
+
+.fs-small {
+    font-size: calc(0.875rem + 0.3vw) !important;
 }
